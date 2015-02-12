@@ -1,0 +1,1 @@
+Record down my own understanding of book [Python CookBook] in more executable way
