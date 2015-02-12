@@ -1,16 +1,28 @@
-
+ ply stands for python lex and yacc. it can be used to design parser/compiler/interpreter
+ while it's not standard library.
+ can be installed with: pip install ply
+```python
 just_len = 60
 
 from ply.lex import lex
 from ply.yacc import yacc
 
-# Token List
+```
+
+ Token List
+```python
 tokens = ['NUM', 'PLUS', 'MINUS', 'TIMES', 'DIVIDE', 'LPAREN', 'RPAREN']
 
-# ignored characters
+```
+
+ ignored characters
+```python
 t_ignore = ' \t\n'
 
-# Token specifications (as regexs)
+```
+
+ Token specifications (as regexs)
+```python
 t_PLUS = r'\+'
 t_MINUS = r'-'
 t_TIMES = r'\*'
@@ -18,22 +30,34 @@ t_DIVIDE = r'/'
 t_LPAREN = r'\('
 t_RPAREN = r'\)'
 
-# Token processing functions
+```
+
+ Token processing functions
+```python
 def t_NUM(t):
     r'\d+'
     t.value = int(t.value)
 
     return t
 
-# Error handler
+```
+
+ Error handler
+```python
 def t_error(t):
     print('Bad character: {!r}'.format(t.value[0]))
     t.skip(1)
 
-# build the lexer
+```
+
+ build the lexer
+```python
 lexer = lex()
 
-# Grammar rules and handler functions
+```
+
+ Grammar rules and handler functions
+```python
 def p_expr(p):
     '''
     expr : expr PLUS term
@@ -97,3 +121,4 @@ print('parse 2 + 3 * 4'.ljust(just_len),
 print('parse (2 + 3) * 4'.ljust(just_len),
       parser.parse('(2 + 3) * 4'))
 
+```
