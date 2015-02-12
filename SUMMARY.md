@@ -1,6 +1,6 @@
 * [Chapter 1 Data Structure and Algorithms]
     * [Unpacking](ch1/unpacking_sequence.md)
-    * [Filtering Items in a Collection](ch1/filtering.py)
+    * [Filtering Items in a Collection](ch1/filtering.md)
     * [Sorting a Collection](ch1/sorting.md)
     * [A bit Extra Dictionary Thing](ch1/collection_dictionary.md)
     * [Chain Dictionary Together](ch1/collection_chainmap.md)
