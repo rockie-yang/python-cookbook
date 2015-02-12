@@ -9,7 +9,6 @@
     * [Priority Queue](ch1/collection_heapq.md)
     * [NamedTuple as a Simpified Class](ch1/collection_namedtuple.md)
     * [Deque](ch1/collection_deque.md)
-
 * [Chapter 2 Strings and Text]
     * [Strip Characters in a String](ch2/string_strip.md)
     * [Split a String](ch2/string_split.md)
