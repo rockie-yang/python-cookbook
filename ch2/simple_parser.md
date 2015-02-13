@@ -1,24 +1,24 @@
- it's a simple recursive descent parser to parse simple math expression.
+it's a simple recursive descent parser to parse simple math expression.
+Like 3 + 4, 3 + 4 * 5, (3 + 4) / 5
+
+BNF grammar
+expr  ::= expr + term
+|   expr - term
+|   term
+
+term  ::= term * factor
+|   term / factor
+|   factor
+
+factor::= (expr)
+| NUM
 
 
- BNF grammar
- expr  ::= expr + term
-       |   expr - term
-       |   term
 
- term  ::= term * factor
-       |   term / factor
-       |   factor
-
- factor::= (expr)
-       | NUM
-
-
-
- EBNF grammar, in EBNF {}part is optional
- expr  ::= term { (+|-) term }*
- term  ::= factor {(*|/) factor}*
- factor::= (expr) | NUM
+EBNF grammar, in EBNF {}part is optional
+expr  ::= term { (+|-) term }*
+term  ::= factor {(*|/) factor}*
+factor::= (expr) | NUM
 
 ```python
 just_len = 60
@@ -26,9 +26,10 @@ just_len = 60
 import re
 import collections
 
+
 ```
 
- Token Specification ?P<TOKENNAME> is used to assign name to the pattern
+Token Specification ?P<TOKENNAME> is used to assign name to the pattern
 ```python
 NUM     = r'(?P<NUM>\d+)'
 PLUS    = r'(?P<PLUS>\+)'

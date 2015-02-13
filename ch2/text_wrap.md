@@ -18,7 +18,7 @@ print(textwrap.fill(s, 70, initial_indent='   ', subsequent_indent='>'))
 
 ```
 
- this should first open a terminal
+this should first open a terminal
 ```python
 import os
 print('\nFill to the same size with terminal', os.get_terminal_size().columns)
