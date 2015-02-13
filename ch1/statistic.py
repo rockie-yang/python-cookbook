@@ -1,3 +1,9 @@
+# There are good standard modules in Python can be used to do statistic.
+# like *collections.Counter*, *itertools.groupby*
+
+
+# Counter can be used to see how many time an item happened.
+# It even have a function *most_common(top_n)* to get top n common items.
 words = [
     'look', 'into', 'my', 'eyes', 'look', 'into', 'my', 'eyes',
     'the', 'eyes', 'the', 'eyes', 'the', 'eyes', 'not', 'around', 'the',
@@ -15,6 +21,13 @@ print(top3)
 
 print(words_count.keys())
 
+
+# We can group items according to certain criteria.
+# The *itemtools.groupby* is used exactly in this case.
+# Remember sort the collection first.
+from operator import itemgetter
+from itertools import groupby
+
 rows = [
     {'address': '5412NCLARK', 'date': '07/01/2012'},
     {'address': '5148NCLARK', 'date': '07/04/2012'},
@@ -26,14 +39,8 @@ rows = [
     {'address': '1039GRANVILLE', 'date': '07/04/2012'},
 ]
 
-
-
-from operator import itemgetter
-from itertools import groupby
-# we first need sort according to certain item needed to group
 rows.sort(key=itemgetter('date'))
 
-# then we can group it according to certain item
 grouped = groupby(rows, key=itemgetter('date'))
 for date, items in grouped:
     print(date, list(items))

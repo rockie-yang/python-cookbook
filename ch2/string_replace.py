@@ -1,22 +1,23 @@
 
-text = 'yeah, but no, but yeah, but no, but yeah'
 # we can replace ALL(not the first one) substring with another substring
+# the original string does not change because string is immutable
+text = 'yeah, but no, but yeah, but no, but yeah'
 print(text.replace('yeah', 'yep'))
 
-# the original string does not change because string is immutable
 print(text)
 
 
-text = 'Today is 11/27/2012. PyCon starts 3/13/2013.'
-import re
 # change date from <month>/<day>/<year> to <year>-<month>-<day>
 # r'\3' means group number 3 in regular expression match group
+text = 'Today is 11/27/2012. PyCon starts 3/13/2013.'
+import re
 print(re.sub(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', text))
 
 # re.subn can return replaced string and how many has been replaced
 print(re.subn(r'(\d+)/(\d+)/(\d+)', r'\3-\1-\2', text))
 
 
+# We also can use group for match response for more processing
 def change_date(text):
     # this is function will be called by re.sub
     def replace(match):

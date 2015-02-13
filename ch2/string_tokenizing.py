@@ -1,3 +1,4 @@
+# Tokenizer is a important step for any parser/compiler/interpreter.
 just_len = 60
 text = 'foo = 23 + 42 * 10'
 
@@ -15,6 +16,7 @@ master_pattern = re.compile('|'.join([NAME, NUM, PLUS, TIMES, EQ, WS]))
 from collections import namedtuple
 Token = namedtuple('Token', ['type', 'value'])
 
+# generate all tokens match the pattern
 def generate_tokens(pattern, text):
     scanner = pattern.scanner(text)
 
@@ -22,22 +24,22 @@ def generate_tokens(pattern, text):
         yield Token(m.lastgroup, m.group())
 
 
-print('get all tokens')
 for token in generate_tokens(master_pattern, text):
     print(token)
 
 
-print('\nget all tokens exclude space tokens')
+# filter some tokens we does not want it
 excluded_ws = (token for token in generate_tokens(master_pattern, text) if token.type != 'WS')
 for token in excluded_ws:
     print(token)
 
+
+# the pattern's order matters. Longer match should be put first
+# like <= should be earlier than = or <
 NUM = r'(?P<NUM>\d+)'
 LT = r'(?P<LT><)'
 LE = r'(?P<LE><=)'
 EQ = r'(?P<EQ>=)'
-# the pattern's order matters. Longer match should be put first
-# like <= should be earlier than = or <
 print('\npattern in right order')
 master_pattern_in_right_order = re.compile('|'.join([NUM, LE, LT, EQ]))
 token_correct = list(generate_tokens(master_pattern_in_right_order, '3<=4'))

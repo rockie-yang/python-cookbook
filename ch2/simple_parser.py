@@ -1,5 +1,5 @@
 # it's a simple recursive descent parser to parse simple math expression.
-#
+# Like 3 + 4, 3 + 4 * 5, (3 + 4) / 5
 
 # BNF grammar
 # expr  ::= expr + term
@@ -24,6 +24,7 @@ just_len = 60
 
 import re
 import collections
+
 
 # Token Specification ?P<TOKENNAME> is used to assign name to the pattern
 NUM     = r'(?P<NUM>\d+)'

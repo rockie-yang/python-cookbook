@@ -1,7 +1,13 @@
+# There might be some strange characters that we want to cleaning.
+
+
+# Like some strange characters we don't want display.
+# str.translate can be used in some simple cases.
 just_len = 60
 
 s = 'pýtĥöñ\fis\tawesome\r\n'
-print('every time see strange characters are annoying'.ljust(just_len), s)
+print('every time see strange characters are annoying'.ljust(just_len),
+      s)
 
 remap = {
     ord('\t'): ' ',
@@ -9,17 +15,21 @@ remap = {
     ord('\r'): ' '
 }
 
-print('using translate function could map some chars'.ljust(just_len), s.translate(remap))
+print('using translate function could map some chars'.ljust(just_len),
+      s.translate(remap))
 
 
+# some characters are called combining(decorator) characters.
+# The following code can to check if it is or not.
 
 import unicodedata
 import sys
 
-# all unicode, its a huge number
-all_unicodes = range(sys.maxunicode)
+all_unicodes = range(sys.maxunicode) # all unicode, its a huge number
 s='O\u0308 \u00d6'
-print('if its a combining(decorate) char or not, \u0308  \u00d6'.ljust(just_len), unicodedata.combining(s[1]), unicodedata.combining(s[-1]))
+print('if its a combining(decorate) char or not, \u0308  \u00d6'.ljust(just_len),
+      unicodedata.combining(s[1]), unicodedata.combining(s[-1]))
+
 
 # get all combining chars
 # since we need using this map to translate, here just map to None
@@ -45,6 +55,3 @@ print('we can remove by encode to ascii and decode to ascii'.ljust(just_len),
 
 print('without normalize will remove all special chars'.ljust(just_len),
       s.encode('ascii', 'ignore').decode('ascii'))
-
-
-# print(''.ljust(just_len), s)

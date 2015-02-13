@@ -16,16 +16,20 @@ print('depends on font, decomposed might display correct'.ljust(just_len),
 import unicodedata
 t1 = unicodedata.normalize('NFC', s1)
 t2 = unicodedata.normalize('NFC', s2)
-print('NFC means normal form composed'.ljust(just_len), t1, t2, len(t1), len(t2), t1 == t2)
+print('NFC means normal form composed'.ljust(just_len),
+      t1, t2, len(t1), len(t2), t1 == t2)
 
 t1 = unicodedata.normalize('NFD', s1)
 t2 = unicodedata.normalize('NFD', s2)
-print('NFD means normal form decomposed'.ljust(just_len), t1, t2, len(t1), len(t2), t1 == t2)
+print('NFD means normal form decomposed'.ljust(just_len),
+      t1, t2, len(t1), len(t2), t1 == t2)
 
 t1 = unicodedata.normalize('NFKD', '\u2160')
 t2 = unicodedata.normalize('NFKD', '\u0049')
-print('NFKD means normal form compatible decomposed'.ljust(just_len), t1, t2, len(t1), len(t2), t1 == t2)
+print('NFKD means normal form compatible decomposed'.ljust(just_len),
+      t1, t2, len(t1), len(t2), t1 == t2)
 
 t1 = unicodedata.normalize('NFKD', '\u2160')
 t2 = unicodedata.normalize('NFKD', '\u0049')
-print('NFKC means normal form compatible composed'.ljust(just_len), t1, t2, len(t1), len(t2), t1 == t2)
+print('NFKC means normal form compatible composed'.ljust(just_len),
+      t1, t2, len(t1), len(t2), t1 == t2)
