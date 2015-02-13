@@ -3,28 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e663daf8-5b7b-453a-ab8e-67e9c1432b6b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/collection_chainmap.py" afterPath="$PROJECT_DIR$/ch1/collection_chainmap.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/collection_deque.py" afterPath="$PROJECT_DIR$/ch1/collection_deque.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/collection_dictionary.py" afterPath="$PROJECT_DIR$/ch1/collection_dictionary.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/collection_heapq.py" afterPath="$PROJECT_DIR$/ch1/collection_heapq.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/collection_namedtuple.py" afterPath="$PROJECT_DIR$/ch1/collection_namedtuple.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/filtering.py" afterPath="$PROJECT_DIR$/ch1/filtering.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/generate_markdown.py" afterPath="$PROJECT_DIR$/generate_markdown.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/remove_duplicate.py" afterPath="$PROJECT_DIR$/ch1/remove_duplicate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/simple_parser.py" afterPath="$PROJECT_DIR$/ch2/simple_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/simple_ply_parser.py" afterPath="$PROJECT_DIR$/ch2/simple_ply_parser.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/sorting.py" afterPath="$PROJECT_DIR$/ch1/sorting.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/statistic.py" afterPath="$PROJECT_DIR$/ch1/statistic.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_cleaning.py" afterPath="$PROJECT_DIR$/ch2/string_cleaning.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_format.py" afterPath="$PROJECT_DIR$/ch2/string_format.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_match.py" afterPath="$PROJECT_DIR$/ch2/string_match.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_replace.py" afterPath="$PROJECT_DIR$/ch2/string_replace.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_split.py" afterPath="$PROJECT_DIR$/ch2/string_split.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_strip.py" afterPath="$PROJECT_DIR$/ch2/string_strip.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_tokenizing.py" afterPath="$PROJECT_DIR$/ch2/string_tokenizing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch2/string_unicode.py" afterPath="$PROJECT_DIR$/ch2/string_unicode.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ch1/unpacking_sequence.py" afterPath="$PROJECT_DIR$/ch1/unpacking_sequence.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="python-cookbook.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,38 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="string_cleaning.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/string_cleaning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="945">
-              <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
-              <folding>
-                <element signature="e#585#603#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_format.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/string_format.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="string_match.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ch2/string_match.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1789" max-vertical-offset="2415">
-              <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="string_replace.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ch2/string_replace.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -141,16 +87,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
-              <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+            <state vertical-scroll-proportion="-5.6896553" vertical-offset="0" max-vertical-offset="480">
+              <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding />
             </state>
           </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="round_numbers.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ch3/round_numbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="math.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.IdeaIC14/system/python_stubs/1497939212/math.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4304" max-vertical-offset="6585">
+              <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.IdeaIC14/system/python_stubs/1497939212/builtins.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="7649" max-vertical-offset="88995">
+              <caret line="524" column="25" selection-start-line="524" selection-start-column="18" selection-end-line="524" selection-end-column="25" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -206,12 +182,13 @@
         <option value="$PROJECT_DIR$/ch2/string_tokenizing.py" />
         <option value="$PROJECT_DIR$/ch2/string_unicode.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/ch3/round_numbers.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2177" />
-    <option name="y" value="79" />
+    <option name="x" value="1991" />
+    <option name="y" value="106" />
     <option name="width" value="1828" />
     <option name="height" value="919" />
   </component>
@@ -291,6 +268,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-cookbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-cookbook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ch3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -322,28 +313,7 @@
       <recent name="$PROJECT_DIR$/ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.string_match">
-    <configuration default="false" name="simple_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python-cookbook" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch2/simple_parser.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.round_numbers">
     <configuration default="false" name="simple_ply_parser" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,6 +388,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python-cookbook" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch1/collection_chainmap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="round_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ch3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-cookbook" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ch3/round_numbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -770,19 +759,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.string_match" />
-      <item index="1" class="java.lang.String" itemvalue="Python.simple_parser" />
-      <item index="2" class="java.lang.String" itemvalue="Python.simple_ply_parser" />
-      <item index="3" class="java.lang.String" itemvalue="Python.generate_markdown" />
-      <item index="4" class="java.lang.String" itemvalue="Python.collection_heapq" />
-      <item index="5" class="java.lang.String" itemvalue="Python.collection_chainmap" />
+      <item index="1" class="java.lang.String" itemvalue="Python.simple_ply_parser" />
+      <item index="2" class="java.lang.String" itemvalue="Python.generate_markdown" />
+      <item index="3" class="java.lang.String" itemvalue="Python.collection_heapq" />
+      <item index="4" class="java.lang.String" itemvalue="Python.collection_chainmap" />
+      <item index="5" class="java.lang.String" itemvalue="Python.round_numbers" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.collection_chainmap" />
-        <item index="1" class="java.lang.String" itemvalue="Python.collection_heapq" />
-        <item index="2" class="java.lang.String" itemvalue="Python.generate_markdown" />
-        <item index="3" class="java.lang.String" itemvalue="Python.simple_ply_parser" />
-        <item index="4" class="java.lang.String" itemvalue="Python.simple_parser" />
+        <item index="0" class="java.lang.String" itemvalue="Python.round_numbers" />
+        <item index="1" class="java.lang.String" itemvalue="Python.collection_chainmap" />
+        <item index="2" class="java.lang.String" itemvalue="Python.collection_heapq" />
+        <item index="3" class="java.lang.String" itemvalue="Python.generate_markdown" />
+        <item index="4" class="java.lang.String" itemvalue="Python.simple_ply_parser" />
       </list>
     </recent_temporary>
   </component>
@@ -803,7 +792,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2177" y="79" width="1828" height="919" extended-state="0" />
+    <frame x="1991" y="106" width="1828" height="919" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -815,7 +804,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20169082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20169082" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25419933" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -824,7 +813,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28381643" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28381643" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -886,21 +875,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ch1/filtering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="510">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ch1/collection_namedtuple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="345">
-          <caret line="17" column="87" selection-start-line="17" selection-start-column="87" selection-end-line="17" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ch1/collection_chainmap.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -1015,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.IdeaIC14/system/python_stubs/1497939212/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5098" max-vertical-offset="88995">
-          <caret line="366" column="66" selection-start-line="366" selection-start-column="66" selection-end-line="366" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
@@ -1066,7 +1032,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1380">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1#10#0" expanded="true" />
+            <element signature="e#1#10#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1213,7 +1179,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1976" max-vertical-offset="2700">
           <caret line="164" column="19" selection-start-line="164" selection-start-column="19" selection-end-line="164" selection-end-column="19" />
           <folding>
-            <element signature="e#455#464#0" expanded="true" />
+            <element signature="e#455#464#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1223,7 +1189,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="986" max-vertical-offset="1620">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#183#206#0" expanded="true" />
+            <element signature="e#183#206#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1233,7 +1199,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="311" max-vertical-offset="945">
           <caret line="51" column="40" selection-start-line="51" selection-start-column="40" selection-end-line="51" selection-end-column="40" />
           <folding>
-            <element signature="e#585#603#0" expanded="true" />
+            <element signature="e#585#603#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1304,13 +1270,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
-          <caret line="0" column="49" selection-start-line="0" selection-start-column="49" selection-end-line="0" selection-end-column="49" />
+        <state vertical-scroll-proportion="-5.6896553" vertical-offset="0" max-vertical-offset="480">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC14/system/python_stubs/1497939212/math.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4304" max-vertical-offset="6585">
+          <caret line="301" column="4" selection-start-line="301" selection-start-column="4" selection-end-line="301" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC14/system/python_stubs/1497939212/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7649" max-vertical-offset="88995">
+          <caret line="524" column="25" selection-start-line="524" selection-start-column="18" selection-end-line="524" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ch3/round_numbers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33123028" vertical-offset="0" max-vertical-offset="634">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
